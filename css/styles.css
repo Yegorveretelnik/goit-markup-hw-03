@@ -149,3 +149,7 @@ ul {
                 flex-wrap: wrap
             }
 
+img {
+        display: block
+        
+    }
