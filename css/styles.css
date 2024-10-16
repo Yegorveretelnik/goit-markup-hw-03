@@ -73,6 +73,11 @@ body {
    gap: 24px
     }
 
+.sectiontwolistitem
+
+{
+    width: calc((100% - 72px) / 4)
+    }
 
 .sectionthree-li {
     background-color: #FFFFFF
@@ -92,10 +97,6 @@ body {
     color: #f4f4fd;
 }
 
-.sectionone {
-    color: #FFFFFF;
-    padding: 188px 0
-}
 
 .sectionthree {
     background-color: #F4F4FD;
@@ -163,6 +164,10 @@ ul {
         padding-bottom: 120px
     }
 
+.sectionone {
+    color: #FFFFFF;
+    padding: 188px 0
+}
  .container {
             width: 1158px;
             margin: 0 auto;
@@ -191,6 +196,10 @@ img {
         gap: 40px
         }
 
-        
+    .advantages
+
+        {
+            visibility: hidden
+        }
 
  
