@@ -5,7 +5,7 @@ body {
     line-height: 1.5
 }
 
-.logo {
+.logo, .footerlogo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -15,7 +15,14 @@ body {
     color: #4d5ae5
 
 }
+.logo {
+    margin-right: 76px
+}
 
+.footerlogo {
+    display: inline-block;
+    margin-bottom: 16px
+}
 
 .listone {
     font-size: 16px;
@@ -23,6 +30,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0
 }
 
 .listtwo, .text {
@@ -90,7 +98,8 @@ body {
 
 
 .footer {
-    color: #F4F4FD
+    color: #F4F4FD;
+    padding: 100px 0
 }
 .sectionone, .footer {
         background-color: #2E2F42;;
@@ -141,15 +150,33 @@ ul {
     }
 
  .container {
-            width: 1158px
+            width: 1158px;
+            margin: 0 auto;
+            padding: 0 15px
         }
 
-        .header, .nav, ul {
-                display: flex;
-                flex-wrap: wrap
+        .header, .nav, ul, .container {
+                display: flex
+                
             }
 
 img {
         display: block
         
     }
+
+    .header {
+            border-bottom: 1px solid #e7e9fc
+        }
+
+.nav {
+        align-items: center
+    }
+
+    .addresslist, .navlist {
+        gap: 40px
+        }
+
+        
+
+ 
