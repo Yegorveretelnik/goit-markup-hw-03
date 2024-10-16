@@ -134,3 +134,18 @@ a {
 ul {
     list-style: none;
 }
+
+.section {
+        padding-top: 120px;
+        padding-bottom: 120px
+    }
+
+ .container {
+            width: 1158px
+        }
+
+        .header, .nav, ul {
+                display: flex
+            }
+
+            
