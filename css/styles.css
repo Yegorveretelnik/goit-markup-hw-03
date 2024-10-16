@@ -73,11 +73,6 @@ body {
    gap: 24px
     }
 
-.sectiontwolistitem
-
-{
-    width: calc((100% - 72px) / 4)
-    }
 
 .sectionthree-li {
     background-color: #FFFFFF
@@ -201,5 +196,5 @@ img {
    }
 
  .sectiontwolistitem {
-     width: calc(100% - 72px)/4
+    flex-basis: calc((100% - 72px) / 4))
  }
