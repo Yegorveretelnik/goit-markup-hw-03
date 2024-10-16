@@ -197,9 +197,9 @@ img {
         }
 
    .visually-hidden {
-       @include visually-hidden;
+       display: none;
    }
 
  .sectiontwolistitem {
-     width: calc((100% - 72px)/4)
+     width: calc(100% - 72px)/4
  }
