@@ -155,7 +155,7 @@ ul {
             padding: 0 15px
         }
 
-        .header, .nav, ul, .address  {
+        .header, .nav, ul, .address, .containerone  {
                 display: flex
                 
             }
