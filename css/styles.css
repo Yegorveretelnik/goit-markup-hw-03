@@ -20,8 +20,8 @@ body {
 }
 
 .footerlogo {
+    margin-bottom: 16px;
     display: inline-block;
-    margin-bottom: 16px
 }
 
 .listone {
@@ -155,7 +155,7 @@ ul {
             padding: 0 15px
         }
 
-        .header, .nav, ul, .container {
+        .header, .nav, ul, .address  {
                 display: flex
                 
             }
