@@ -13,8 +13,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5
-
 }
+
+h1, h2, h3, p
+
+{
+        margin:0
+    }
+
 .logo {
     margin-right: 76px
 }
@@ -30,7 +36,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding: 24px 0
+    padding: 24px 0;
+    display: block;
 }
 
 .listtwo, .text {
@@ -66,8 +73,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
-    text-align: center
+    margin-bottom: 8px
+    
 }
 
 .sectiontwolist, .sectionthreelist
@@ -105,11 +112,16 @@ padding: 0
 .sectiontwo-list-header, .button {
     font-weight: 500;
 }
-
+.solutions,
+.button {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .footer {
     color: #F4F4FD;
-    padding: 100px 0
+    padding: 100px 0;
+    max-width: 264px;
 }
 .sectionone, .footer {
         background-color: #2E2F42;;
@@ -157,6 +169,8 @@ a {
 
 ul {
     list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 .section {
@@ -180,6 +194,10 @@ ul {
                 
             }
 
+.containerone {
+    align-items: center;
+}
+
 img {
         display: block
         
@@ -190,14 +208,15 @@ img {
         }
 
 .nav {
-        align-items: center
+        align-items: center;
+        margin-right: auto;
     }
 
     .addresslist, .navlist {
         gap: 40px
         }
 
-   .visually-hidden {
+.visually-hidden {
        position: absolute;
        width: 1px;
        height: 1px;
@@ -222,10 +241,7 @@ img {
     padding: 32px 0
  }
 
-.text {
-text-align: center
 
-}
 
 .containerlist-four
 
@@ -235,7 +251,11 @@ text-align: center
         border-top: none
     }
 
-    .sectionfourlist {
+ .sectionfourlist {
                 column-gap: 24px;
                 row-gap: 48px
             }
+
+.team { 
+    text-align: center;
+}
