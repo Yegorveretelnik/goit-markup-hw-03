@@ -196,10 +196,8 @@ img {
         gap: 40px
         }
 
-    .advantages
-
-        {
-            visibility: hidden
-        }
+   .visually-hidden {
+       @include visually-hidden;
+   }
 
  
