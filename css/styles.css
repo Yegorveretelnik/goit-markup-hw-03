@@ -45,7 +45,8 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF
+    color: #FFFFFF;
+    max-width: 496px
 
 }
 
@@ -63,8 +64,15 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
+    margin-bottom: 8px
 }
+
+.sectiontwolist
+{
+   gap: 24px
+    }
+
 
 .sectionthree-li {
     background-color: #FFFFFF
@@ -86,6 +94,7 @@ body {
 
 .sectionone {
     color: #FFFFFF;
+    padding: 188px 0
 }
 
 .sectionthree {
@@ -111,7 +120,12 @@ body {
             cursor:pointer;
             line-height: 1.5;
             letter-spacing: 0.04em;
-            color: #FFFFFF
+            color: #FFFFFF;
+            display: block;
+            min-width: 169px;
+            height: 56px;
+            border: none;
+            border-radius: 4px
         
       }
       
