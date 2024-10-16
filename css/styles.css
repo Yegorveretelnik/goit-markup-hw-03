@@ -145,7 +145,7 @@ ul {
         }
 
         .header, .nav, ul {
-                display: flex
+                display: flex;
+                flex-wrap: wrap
             }
 
-            
