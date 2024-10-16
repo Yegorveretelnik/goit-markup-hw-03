@@ -175,7 +175,8 @@ ul {
         }
 
      .header, .nav, ul, .address, .containerone  {
-                display: flex
+                display: flex;
+                flex-wrap: wrap
                 
             }
 
