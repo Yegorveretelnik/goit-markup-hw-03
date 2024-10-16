@@ -70,7 +70,9 @@ body {
 
 .sectiontwolist
 {
-   
+gap: 24px;
+padding: 0
+
     }
 
 
@@ -203,6 +205,8 @@ img {
        clip: rect(0 0 0 0);
        overflow: hidden;
    }
+
+
 
  .sectiontwolistitem {
     width: calc((100% - 3 * 24px) / 4)
