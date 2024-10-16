@@ -94,6 +94,7 @@ padding: 0
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 
 .studio {
@@ -121,7 +122,7 @@ padding: 0
 .footer {
     color: #F4F4FD;
     padding: 100px 0;
-    max-width: 264px;
+    
 }
 .sectionone, .footer {
         background-color: #2E2F42;;
