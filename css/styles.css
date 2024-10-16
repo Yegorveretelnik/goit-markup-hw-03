@@ -211,7 +211,7 @@ img {
 
 
 
- .sectiontwolistitem {
+ .sectiontwolistitem, .sectionthree-li {
     width: calc((100% - 3 * 24px) / 4)
  }
 
