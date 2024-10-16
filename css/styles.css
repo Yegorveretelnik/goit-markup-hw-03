@@ -200,4 +200,6 @@ img {
        @include visually-hidden;
    }
 
- 
+ .sectiontwolistitem {
+     width: calc((100% - 72px) / 4)
+ }
