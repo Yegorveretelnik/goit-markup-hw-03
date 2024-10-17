@@ -53,7 +53,8 @@ h1, h2, h3, p
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    max-width: 496px
+    max-width: 496px;
+    margin-bottom: 48px;
 
 }
 
